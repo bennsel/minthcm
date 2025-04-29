@@ -18,4 +18,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file docker/Dockerfile --tag bennsel/minthcm:latest
     - name: Docker push
-      run: docker push minthcm/minthcm:latest
+      run: docker push bennsel/minthcm:latest
